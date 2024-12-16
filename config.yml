@@ -1,0 +1,14 @@
+# The Y-level threshold below which players will be teleported to the saved location
+void-y-level: 0
+
+# Default void locations for different worlds
+void-locations:
+  world:
+    x: 0       # X coordinate of the void teleport location in the 'world'
+    y: 80      # Y coordinate of the void teleport location in the 'world'
+    z: 0       # Z coordinate of the void teleport location in the 'world'
+
+  world_nether:
+    x: 50      # X coordinate of the void teleport location in the 'world_nether'
+    y: 70      # Y coordinate of the void teleport location in the 'world_nether'
+    z: 50      # Z coordinate of the void teleport location in the 'world_nether'
