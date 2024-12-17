@@ -1,11 +1,8 @@
-name: Test
-version: '1.0-SNAPSHOT'
-main: Nine.Studio.test.NoFallPlugin
+name: NoFallPlugin
+version: '1.0'
+main: Nine.Studio.NoFall.NoFallPlugin
 api-version: '1.21'
 commands:
   voidLocation:
-    description: Set the void location for the specified world.
-    usage: /voidLocation <worldname>
-    permission: nofallplugin.voidlocation
-    permission-message: You do not have permission to use this command.
-
+    description: Manage void locations.
+    usage: /voidLocation <spawnName> | /voidLocation remove <spawnName> | /voidLocation list
